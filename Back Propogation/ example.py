@@ -2,7 +2,7 @@ import numpy as np
 import functionsBP as BP
 import scipy.io as spio
 
-mat = spio.loadmat('ex4data1.mat',squeeze_me=True)
+mat = spio.loadmat('MNIST-subset.mat',squeeze_me=True)
 #mat2 = spio.loadmat('ex4weights.mat',squeeze_me=True)
 
 #print mat
