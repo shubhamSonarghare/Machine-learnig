@@ -1,4 +1,5 @@
 import tensorflow as tf
+import matplotlib.pyplot as plt
 import numpy as np
 import cv2
 from PIL import Image
@@ -16,8 +17,8 @@ dictr = {'1':'fwd','2':'left','3':'right','4':'stop'}
 gr = load_opt_graph('model\\optimized_graph.pb')
 
 
-for op in gr.get_operations():
-  print(op.name)
+#for op in gr.get_operations():
+#  print(op.name)
 
 ip = gr.get_tensor_by_name('import/MyInput:0')
 prediction = gr.get_tensor_by_name('import/myOutput:0')
