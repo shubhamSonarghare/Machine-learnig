@@ -12,7 +12,7 @@ Trained model was saved and then optimized using tensorflow's "tensorflow.python
 
 ### Model Sample Output on Videos/Images: 
 Use "run_with_saved_model.py" to run inference on videos/images. 
-NOTE: do change image path on line 24 of run_with_saved_model.py
+- NOTE: do change image path on line 24 of run_with_saved_model.py
  
 |Sample output|
 |:-:|
