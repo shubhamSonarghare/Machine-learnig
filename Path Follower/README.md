@@ -16,11 +16,7 @@ NOTE: do change image path on line 24 of run_with_saved_model.py
  
 |Sample output|
 |:-:|
-|<img src="Sample_output/op_image1.JPG" height="400" width="800">|
-
-|Sample output|
-|:-:|
-|<img src="Sample_output/op_image2.JPG" height="400" width="800">|
+|<img src="Sample_output/sample.gif" height="400">|
 
 ### Work to be done:
 - Using optimized model, setup raspberry pi to manipulate motors of a robot based on the model inference.
