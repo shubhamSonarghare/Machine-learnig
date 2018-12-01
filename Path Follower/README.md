@@ -20,6 +20,6 @@ Use "run_with_saved_model.py" to run inference on videos/images.
 
 ### Work to be done:
 - Using optimized model, setup raspberry pi to manipulate motors of a robot based on the model inference.
-
+- Add object detection for miniature traffic lights 
 
 
